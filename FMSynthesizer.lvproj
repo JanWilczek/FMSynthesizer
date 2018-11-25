@@ -13,10 +13,15 @@
 		<Item Name="main" Type="Folder" URL="../main">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="UI Animation" Type="Folder" URL="../UI Animation">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="WaveIO" Type="Folder" URL="../WaveIO">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="FMSynthesizerLogo.png" Type="Document" URL="../FMSynthesizerLogo.png"/>
 		<Item Name="icon.ico" Type="Document" URL="../icon.ico"/>
+		<Item Name="initialization.vi" Type="VI" URL="../initialization.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -111,7 +116,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{186EC2EB-743D-4178-9649-DE44269250EF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/initialization.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
